@@ -5,18 +5,18 @@
   "description": "Learning Moments app with json-server deployed to the cloud",
   "type": "module",
   "scripts": {
-    "dev": "vite",  
-    "build": "vite build", 
-    "lint": "eslint .",  
-    "preview": "vite preview",  
-    "start": "node server.js"  
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
+    "json-server": "latest",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
-    "json-server": "latest",  
-    "vite": "^5.4.1"  
+    "vite": "^5.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -29,8 +29,15 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0"
   },
+  "engines": {
+    "node": "18.x",
+    "npm": "8.x"
+  },
   "keywords": [
-    "json-server", "react", "node", "REST API"
+    "json-server",
+    "react",
+    "node",
+    "REST API"
   ],
   "author": "NSS Student",
   "license": "ISC"
