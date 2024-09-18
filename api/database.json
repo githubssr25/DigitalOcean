@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe TEST",
+      "email": "john@example.comTEST",
+      "cohort": "Cohort 450"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "cohort": "Cohort 46"
+    },
+    {
+      "id": 3,
+      "name": "Alex Johnson",
+      "email": "alex@example.com",
+      "cohort": "Cohort 45"
+    },
+    {
+      "id": 4,
+      "name": "Sara Lee",
+      "email": "sara@example.com",
+      "cohort": "Cohort 47"
+    },
+    {
+      "id": 5,
+      "name": "Chris Evans",
+      "email": "chris@example.com",
+      "cohort": "Cohort 46"
+    },
+    {
+      "id": 6,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "cohort": "Cohort 48"
+    },
+    {
+      "id": 7,
+      "name": "Michael Brown",
+      "email": "michael@example.com",
+      "cohort": "Cohort 45"
+    },
+    {
+      "id": 8,
+      "name": "Sophia Martinez",
+      "email": "sophia@example.com",
+      "cohort": "Cohort 47"
+    },
+    {
+      "id": 9,
+      "name": "Daniel Lee",
+      "email": "daniel@example.com",
+      "cohort": "Cohort 49"
+    },
+    {
+      "id": 10,
+      "name": "Olivia Harris",
+      "email": "olivia@example.com",
+      "cohort": "Cohort 46"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding React HooksTEST",
+      "body": "React hooks allow you to use state and lifecycle methods in functional components...",
+      "date": "2024-09-01",
+      "userId": 1,
+      "topicId": 1
+    },
+    {
+      "id": 2,
+      "title": "Mastering JavaScript Closures",
+      "body": "Closures are an important concept in JavaScript...",
+      "date": "2024-08-15",
+      "userId": 2,
+      "topicId": 2
+    },
+    {
+      "id": 3,
+      "title": "Async/Await Explained",
+      "body": "Async/Await simplifies asynchronous code...",
+      "date": "2024-09-05",
+      "userId": 3,
+      "topicId": 3
+    },
+    {
+      "id": 5,
+      "title": "Object-Oriented Programming in JavaScript",
+      "body": "JavaScript supports object-oriented programming principles...",
+      "date": "2024-08-20",
+      "userId": 5,
+      "topicId": 2
+    },
+    {
+      "id": 6,
+      "title": "Understanding Promises in JavaScript",
+      "body": "Promises are used to handle asynchronous operations in JavaScript...",
+      "date": "2024-09-12",
+      "userId": 6,
+      "topicId": 3
+    },
+    {
+      "id": 7,
+      "title": "Introduction to CSS Grid Layout",
+      "body": "CSS Grid is a two-dimensional layout system for the web...",
+      "date": "2024-07-28",
+      "userId": 7,
+      "topicId": 4
+    },
+    {
+      "id": 8,
+      "title": "JavaScript ES6 Features",
+      "body": "ES6 introduced new features in JavaScript such as arrow functions, classes, and template literals...",
+      "date": "2024-08-02",
+      "userId": 8,
+      "topicId": 2
+    },
+    {
+      "id": 9,
+      "title": "React Component Lifecycles",
+      "body": "Understanding component lifecycles is essential for building React applications...",
+      "date": "2024-09-08",
+      "userId": 9,
+      "topicId": 1
+    },
+    {
+      "id": 10,
+      "title": "CSS Flexbox vs Grid",
+      "body": "Flexbox and Grid are two powerful layout systems in CSS...",
+      "date": "2024-07-15",
+      "userId": 10,
+      "topicId": 4
+    },
+    {
+      "id": 11,
+      "title": "sad",
+      "body": "safds",
+      "date": "2024-09-15",
+      "userId": 1,
+      "topicId": 3
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "React"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript"
+    },
+    {
+      "id": 3,
+      "name": "Asynchronous Programming"
+    },
+    {
+      "id": 4,
+      "name": "CSS"
+    }
+  ],
+  "userPostsLikes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "postId": 1
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "postId": 1
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "postId": 2
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "postId": 2
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "postId": 2
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "postId": 3
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "postId": 3
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "postId": 3
+    },
+    {
+      "id": 13,
+      "userId": 5,
+      "postId": 5
+    },
+    {
+      "id": 14,
+      "userId": 2,
+      "postId": 5
+    },
+    {
+      "id": 15,
+      "userId": 4,
+      "postId": 6
+    },
+    {
+      "id": 16,
+      "userId": 7,
+      "postId": 6
+    },
+    {
+      "id": 17,
+      "userId": 6,
+      "postId": 7
+    },
+    {
+      "id": 18,
+      "userId": 8,
+      "postId": 7
+    },
+    {
+      "id": 19,
+      "userId": 9,
+      "postId": 8
+    },
+    {
+      "id": 20,
+      "userId": 10,
+      "postId": 8
+    },
+    {
+      "id": 21,
+      "userId": 1,
+      "postId": 9
+    },
+    {
+      "id": 22,
+      "userId": 3,
+      "postId": 9
+    },
+    {
+      "id": 23,
+      "userId": 4,
+      "postId": 10
+    },
+    {
+      "id": 24,
+      "userId": 5,
+      "postId": 10
+    },
+    {
+      "id": 25,
+      "userId": 6,
+      "postId": 9
+    },
+    {
+      "id": 26,
+      "userId": 7,
+      "postId": 5
+    },
+    {
+      "id": 28,
+      "userId": 9,
+      "postId": 2
+    },
+    {
+      "id": 29,
+      "userId": 10,
+      "postId": 7
+    },
+    {
+      "userId": 1,
+      "postId": 8,
+      "id": 30
+    }
+  ]
+}
